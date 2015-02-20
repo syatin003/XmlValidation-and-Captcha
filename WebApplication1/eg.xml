@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Persons xmlns:ns="http://Testing.Message">
+  <Person>
+    <Name>abc</Name>
+
+    <Address>Chd</Address>
+
+    <Phone>9966537965</Phone>
+
+    <Email>abc@gmail.com</Email>
+  </Person>
+  <Person>
+
+    <Name>iliul.ulg</Name>
+
+    <Address>nyynnrtn</Address>
+
+    <Phone>876867575</Phone>
+
+    <Email>ujyj@gmail.com</Email>
+  </Person>
+</Persons>
+
+
+

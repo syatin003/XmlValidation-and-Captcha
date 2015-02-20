@@ -59,10 +59,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="audio.png" />
+    <Content Include="bin\Interop.SpeechLib.dll" />
+    <Content Include="bin\WebApplication1.dll" />
+    <Content Include="bin\WebApplication1.pdb" />
     <Content Include="CRUD.aspx" />
+    <Content Include="CRUD.xml" />
     <Content Include="Default.aspx" />
     <Content Include="eg.aspx" />
+    <Content Include="eg.xml" />
+    <Content Include="iframe.aspx" />
     <Content Include="jquery-1.11.1.js" />
+    <Content Include="one.aspx" />
+    <Content Include="one.xml" />
+    <Content Include="prac.aspx" />
+    <Content Include="prac.xml" />
     <Content Include="refresh.png" />
     <Content Include="Test.aspx" />
     <Content Include="Web.config" />
@@ -89,6 +99,27 @@
     <Compile Include="eg.aspx.designer.cs">
       <DependentUpon>eg.aspx</DependentUpon>
     </Compile>
+    <Compile Include="iframe.aspx.cs">
+      <DependentUpon>iframe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="iframe.aspx.designer.cs">
+      <DependentUpon>iframe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="one.aspx.cs">
+      <DependentUpon>one.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="one.aspx.designer.cs">
+      <DependentUpon>one.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="prac.aspx.cs">
+      <DependentUpon>prac.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="prac.aspx.designer.cs">
+      <DependentUpon>prac.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.aspx.cs">
       <DependentUpon>Test.aspx</DependentUpon>
@@ -99,6 +130,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\WebApplication1.dll.config" />
+    <None Include="eg.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="one.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="prac.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

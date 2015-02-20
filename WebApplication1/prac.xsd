@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+           attributeFormDefault="qualified"
+           elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="BookStore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="Book" id="b101">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Title" type="xs:string"  />
+              <xs:element name="Author" type="xs:string" />
+              <xs:element name="Year" type="xs:string" />
+              <xs:element name="Price" type="xs:integer" />
+              <xs:element name="Email" type="ValidateEmail" />
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="ValidateEmail">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Za-z0-9_]+([-+.'][A-Za-z0-9_]+)*@[A-Za-z0-9_]+([-.][A-Za-z0-9_]+)*\.[A-Za-z0-9_]+([-.][A-Za-z0-9_]+)*" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
+
+
+<!--</xs:schema>
+<xs:schema xmlns:ns="http://Testing.Message"
+           attributeFormDefault="unqualified"
+           elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">-->
+<!--<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="prac"
+    targetNamespace="http://tempuri.org/prac.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/prac.xsd"
+    xmlns:mstns="http://tempuri.org/prac.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">-->

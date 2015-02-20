@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Customers>
+  <Customer id="1">
+    <Name>abc</Name>
+    <Phone>(206) 555-9857</Phone>
+    <City>abc</City>
+    <State>abc</State>
+    <Email>a@bc@gmail.com</Email>
+  </Customer>
+  <Customer id="2">
+    <Name>bcd</Name>
+    <Phone>(206) 555-8122</Phone>
+    <City>bcd</City>
+    <State>bcd</State>
+    <Email>bcd@gmail.com</Email>
+  </Customer>
+</Customers>

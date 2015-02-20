@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BookStore>
+  <Book>
+    <ID>1</ID>
+    <Title>sivaj</Title>
+    <Author>siva</Author>
+    <Year>siva</Year>
+    <Price>siva</Price>
+    <Email>siva</Email>
+  </Book>
+  <Book>
+    <ID>2</ID>
+    <Title>abc</Title>
+    <Author>abc</Author>
+    <Year>abc</Year>
+    <Price>abc</Price>
+    <Email>abc</Email>
+  </Book>
+  <Book>
+    <ID>3</ID>
+    <Title>jhg</Title>
+    <Author>jhg</Author>
+    <Year>jhg</Year>
+    <Price>jhg</Price>
+    <Email>jhgb</Email>
+  </Book>
+</BookStore>

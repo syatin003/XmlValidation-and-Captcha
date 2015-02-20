@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BookStore>
+  <Book id="b101">
+    <Title>abcd</Title>
+    <Author>abc</Author>
+    <Year>abc</Year>
+    <Price>10</Price>
+    <Email>abc@gmail.com</Email>
+  </Book>
+  <Book id="b102">
+    <Title>def</Title>
+    <Author>def</Author>
+    <Year>def</Year>
+    <Price>15</Price>
+    <Email>def@gmail.com</Email>
+  </Book>
+  <Book id="b103">
+    <Title>efg</Title>
+    <Author>efg</Author>
+    <Year>efg</Year>
+    <Price>98</Price>
+    <Email>efg@gmail.com</Email>
+  </Book>
+  <Book id="104">
+    <Title>we</Title>
+    <Author>we</Author>
+    <Year>we</Year>
+    <Price>45</Price>
+    <Email>we@gmail.com</Email>
+  </Book>
+</BookStore>
